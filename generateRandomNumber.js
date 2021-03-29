@@ -10,9 +10,11 @@
 function generateRandomNumber (arr) {
     
     for (i=0; i < 100; i++) {
-console.log(`${i}`);
+console.log(`integer`);
+        
     }
     return (generateRandomNumber)
 }
-let randomNumber = generateRandomNumber(1,100);
+
+let randomNumber = Math.floor(Math.random() * 100) + 1;
 console.log(`Your random number is ${randomNumber}`);
